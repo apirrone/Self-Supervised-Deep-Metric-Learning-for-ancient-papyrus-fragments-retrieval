@@ -1,4 +1,17 @@
-# IJDAR2020_code3
+# Code for paper "Self-Supervised Deep Metric Learning for ancient papyrus fragments retrieval
+
+cite as : 
+
+```
+@article{pirrone2021self,
+  title={Self-supervised deep metric learning for ancient papyrus fragments retrieval},
+  author={Pirrone, Antoine and Beurton-Aimar, Marie and Journet, Nicholas},
+  journal={International Journal on Document Analysis and Recognition (IJDAR)},
+  pages={1--16},
+  year={2021},
+  publisher={Springer}
+}
+```
 
 ## Documentation
 
