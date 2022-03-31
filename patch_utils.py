@@ -153,7 +153,7 @@ def build_papyrus_mask(im, michigan=True):
 def getCorrespondingMaskFileWithPath(f):
     fileName = f.split('/')[len(f.split('/'))-1]
     path = f[:-len(fileName)]
-    return path+"/infered_"+fileName
+    return path+"/baselines/baselines_"+fileName
 
 def getGeshaemMask(fragment_file, resize=None):
     im = cv2.imread(fragment_file[:-len(".JPG")]+'_mask.JPG', cv2.IMREAD_GRAYSCALE)//255
